@@ -55,10 +55,10 @@ else if (dice2==6){
 
 if (dice1>dice2){
 
-    head.innerHTML="Player 1 wins"
+    head.innerHTML= "&#128681;Player 1 wins"
 }
 else if(dice1<dice2) {
-     head.innerHTML="Player 2 wins"
+     head.innerHTML="&#128681;Player 2 wins"
 }
 else if(dice1==dice2){
     head.innerHTML="Draw!"
